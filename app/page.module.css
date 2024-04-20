@@ -1,0 +1,43 @@
+.sponsorship{
+  display: flex;
+  justify-content: center;
+  margin: 3px 4%;
+  flex-direction: column;
+}
+.sponsorshipItem{
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  row-gap: 0.5%;
+  column-gap: 2%; 
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+}
+.image{
+  border-radius: 5%;
+}
+.arrowLeft{
+  transform: scaleX(-1);
+  cursor: pointer;
+  margin-right: 3px;
+}
+.arrowright{
+  cursor: pointer;
+  margin-left: 3px;
+}
+.scroller{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.imageInfl{
+aspect-ratio: 3/4;
+flex-shrink: 0;
+height: 100%;
+object-fit: cover;
+object-position: center;
+border-radius: 6%;
+}

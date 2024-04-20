@@ -1,0 +1,45 @@
+.campaign{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 4%;
+    width: 800px;
+    margin-left: 200px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.campaign button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 800;
+}
+.main{
+    padding: 2%;
+    border-radius: 10px;
+}
+.main:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main input{
+    width: 95%;
+    height: 40px;
+    border: 2px solid rgb(81, 81, 81);
+    border-radius: 5px;
+}
+.textarea{
+    width: 95%;
+    height: 120px;
+    border: 2px solid rgb(81, 81, 81);
+    border-radius: 5px;  
+}
+.logo{
+    width: 95%;
+    height: 45px;
+    border: 2px solid rgb(81, 81, 81);
+    border-radius: 10px;
+    font-weight: 800;
+    background-color: rgb(155, 155, 155);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}

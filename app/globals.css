@@ -1,0 +1,14 @@
+.body{
+    width: 1200px;
+}
+.main{
+    display: flex;
+}
+.main-body{
+    height: 700px;
+    width: 100%;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
